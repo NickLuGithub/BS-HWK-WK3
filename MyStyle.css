@@ -2,3 +2,87 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    /* background-color: #ebf1f8; */
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav {
+    font-size: 0;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ebf1f8;
+}
+
+nav a {
+    padding: 1px;
+    color: #052855;
+    text-decoration: none;
+}
+
+nav .Title_Tool {
+    width: 100%;
+    height: 30px;
+    margin-top: 50px;
+    color: #052855;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav .Title_Tool a {
+    width: 50px;
+    font-size: 14px;
+}
+
+nav .Title_Link {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .Title_Link .item {
+    height: 48px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+nav .Title_Link .item_title {
+    height: 48px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+nav .Title_Link button {
+    width: 144px;
+    height: 48px;
+    color: #fff;
+    background-color: #0061ff;
+    border-radius: 15px;
+    border: 0;
+}
+
+section {
+    width: 90%;
+    height: 400px;
+}
+
+.section_title {
+    display: flex;
+}
+
+.section_title .area_one_text {
+    width: 50%;
+}
+
+.section_title img {
+    width: 50%;
+}

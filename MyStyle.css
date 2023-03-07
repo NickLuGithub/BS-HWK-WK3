@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 思源黑體, 微軟正黑體, 蘋方黑體, 華康麗黑體, Helvetica, Arial, sans-serif, serif;
 }
 
 body {
@@ -26,8 +27,13 @@ nav a {
     text-decoration: none;
 }
 
+nav .Title_Tool,
+nav .Title_Link,
+section {
+    width: 80%;
+}
+
 nav .Title_Tool {
-    width: 60%;
     height: 30px;
     margin-top: 10px;
     margin-right: 5%;
@@ -42,7 +48,6 @@ nav .Title_Tool a {
 }
 
 nav .Title_Link {
-    width: 60%;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -64,24 +69,20 @@ nav .Title_Link .title {
 }
 
 nav .Title_Link button {
-    width: 144px;
+    width: 10vw;
     height: 48px;
     margin-right: 5%;
     color: #fff;
     background-color: #0061ff;
-    border-radius: 15px;
+    border-radius: 8px;
     border: 0;
-}
-
-section {
-    width: 60%;
 }
 
 .section_title {
     height: 500px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 
 .section_title .text {
@@ -90,10 +91,42 @@ section {
 
 .section_title .pic {
     width: 45%;
+    display: flex;
+    align-self: end;
 }
 
 .section_title .text h3 {
-    font-size: 36px;
+    font-size: 40px;
+    color: #052855;
+    letter-spacing: 0.8px;
+}
+
+.section_title .text p {
+    margin: 24px 0;
+    width: 48ch;
+    font-size: 18px;
+    color: #5d6a7a;
+}
+
+.section_title .text button {
+    width: 320px;
+    height: 48px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0061ff;
+    border-radius: 8px;
+}
+
+.section_title .text p:last-child {
+    color: #5d6a7a;
+    font-size: 13px;
+    margin: 8px;
+}
+
+.section_title .pic {
+    width: 457px;
+    border-radius: 48% 48% 0 0;
+    overflow: hidden;
 }
 
 .section_title .pic img {

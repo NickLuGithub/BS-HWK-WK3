@@ -36,7 +36,7 @@ section {
 nav .Title_Tool {
     height: 30px;
     margin-top: 10px;
-    margin-right: 5%;
+    margin-right: 10vw;
     color: #052855;
     display: flex;
     justify-content: end;
@@ -63,7 +63,7 @@ nav .Title_Link .item {
 nav .Title_Link .title {
     height: 48px;
     font-size: 32px;
-    margin-left: 5%;
+    margin-left: 5vw;
     display: flex;
     align-items: center;
 }
@@ -71,7 +71,7 @@ nav .Title_Link .title {
 nav .Title_Link button {
     width: 10vw;
     height: 48px;
-    margin-right: 5%;
+    margin-right: 5vw;
     color: #fff;
     background-color: #0061ff;
     border-radius: 8px;
@@ -81,16 +81,16 @@ nav .Title_Link button {
 .section_title {
     height: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .section_title .text {
-    width: 45%;
+    margin-left: 5vw;
 }
 
 .section_title .pic {
-    width: 45%;
+    margin-right: 5vw;
     display: flex;
     align-self: end;
 }
@@ -125,7 +125,7 @@ nav .Title_Link button {
 
 .section_title .pic {
     width: 457px;
-    border-radius: 48% 48% 0 0;
+    border-radius: 50% 50% 0 0;
     overflow: hidden;
 }
 

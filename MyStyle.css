@@ -31,10 +31,17 @@ nav a {
     text-decoration: none;
 }
 
+.se_01,
+.se_02,
+.se_03 {
+    width: 100%;
+}
+
 nav .Title_Tool,
 nav .Title_Link,
 .se_01 text,
 .se_02 article,
+.se_03 article,
 section {
     width: 80%;
 }
@@ -140,11 +147,6 @@ nav .Title_Link button {
     vertical-align: top;
 }
 
-.se_01,
-.se_02 {
-    width: 100%;
-}
-
 .se_01 {
     background-color: #f7f8f9;
 }
@@ -162,7 +164,7 @@ nav .Title_Link button {
 }
 
 .se_01 .text h3 {
-    margin: 3px;
+    margin: 8px;
     width: 100%;
     font-size: 32px;
     color: #052855;
@@ -171,7 +173,7 @@ nav .Title_Link button {
 }
 
 .se_01 .text p {
-    margin-top: 10px;
+    margin-top: 24px;
     margin-bottom: 64px;
     width: 90%;
     color: #052855;
@@ -238,6 +240,44 @@ nav .Title_Link button {
 
 .se_02 .pic img {
     width: 100%;
+}
+
+.se_03 {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f8f9;
+}
+
+.se_03 article {
+    margin-bottom: 66px;
+    text-align: center;
+    color: #052855;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.se_03 h1 {
+    width: 100%;
+    font-size: 28px;
+    margin: 64px 0;
+}
+
+.se_03 p {
+    font-size: 16px;
+    margin: 16px;
+}
+
+.se_03 .item {
+    width: 33.333%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.se_03 .item img {
+    width: 30%;
+    margin: 15px 35%;
 }
 
 footer {

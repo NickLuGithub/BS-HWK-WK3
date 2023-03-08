@@ -4,6 +4,10 @@
     font-family: 思源黑體, 微軟正黑體, 蘋方黑體, 華康麗黑體, Helvetica, Arial, sans-serif, serif;
 }
 
+img {
+    vertical-align: top;
+}
+
 body {
     background-color: #ebf1f8;
     /* background-color: red; */
@@ -29,6 +33,8 @@ nav a {
 
 nav .Title_Tool,
 nav .Title_Link,
+.se_01 text,
+.se_02 article,
 section {
     width: 80%;
 }
@@ -132,4 +138,108 @@ nav .Title_Link button {
 .section_title .pic img {
     width: 100%;
     vertical-align: top;
+}
+
+.se_01,
+.se_02 {
+    width: 100%;
+}
+
+.se_01 {
+    background-color: #f7f8f9;
+}
+
+.se_02 {
+    background-color: #fff;
+}
+
+.se_01 .text {
+    margin-top: 64px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.se_01 .text h3 {
+    margin: 3px;
+    width: 100%;
+    font-size: 32px;
+    color: #052855;
+    display: flex;
+    justify-content: center;
+}
+
+.se_01 .text p {
+    margin-top: 10px;
+    margin-bottom: 64px;
+    width: 90%;
+    color: #052855;
+    display: flex;
+    justify-content: center;
+}
+
+.se_02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.se_02 article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.se_02 .text {
+    color: #052855;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.se_02 article:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.se_02 .text h3 {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.se_02 .text p {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.se_02 .text ul {
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.se_02 .text li {
+    font-size: 16px;
+    width: 50%;
+    margin: 8px 0;
+}
+
+.se_02 .text a {
+    margin-top: 33px;
+    font-size: 16px;
+    color: #0061ff;
+}
+
+.se_02 .pic {
+    width: 40%;
+    margin: 5%;
+}
+
+.se_02 .pic img {
+    width: 100%;
+}
+
+footer {
+    height: 1000px;
 }

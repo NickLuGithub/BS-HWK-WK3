@@ -35,7 +35,7 @@ nav a {
 .se_02,
 .se_03, 
 .se_04,
-.se_05 {
+.se_05, footer {
     width: 100%;
 }
 
@@ -45,6 +45,7 @@ nav .Title_Link,
 .se_02 article,
 .se_03 article,
 .se_04 article,
+footer .item,
 section {
     width: 80%;
 }
@@ -355,8 +356,116 @@ nav .Title_Link button {
     background-color: #0061ff;
 }
 
-footer {
+footer .item {
+    width: 80%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer .footer_01 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+footer .footer_01 a {
+    margin-right: 28px;
+}
+
+footer .footer_02 {
+    border-top: 1px solid #fff8;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .footer_02 ul {
+    width: 15%;
+}
+
+footer .footer_02 ul:nth-child(5) {
+    width: auto;
+}
+
+footer .footer_02 li {
+    opacity: .6;
+    margin-bottom: 8px;
+}
+footer .footer_02 li:first-child{
+    opacity: 1;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+footer .footer_02 button {
+    width: 255px;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #172b4d;
+    background-color: #e3b54c;
+    border-bottom-style: none;
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+
+footer .footer_03 {
+    padding: 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #fff8;
+}
+
+footer .footer_03 .text {
+    width: 40%;
+}
+
+footer .footer_03 .icon {
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .footer_03 .icon a {
+    width: 60px;
+    height: 60px;
+}
+
+footer .footer_03 .icon img {
     width: 100%;
-    height: 1000px;
+}
+
+footer .footer_03 .text p {
+    font-size: 16px;
+}
+
+footer .footer_03 .link {
+    font-size: 16px;
+    opacity: .8;
+    width: 100%;
+}
+
+footer .footer_03 .link a {
+    padding-right: 16px;
+    margin-right: 12px;
+    border-right: 1px solid #fff8;
+}
+
+footer .footer_03 .link a:last-child {
+    border-right: none;
+}
+
+footer {
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
     background-color: #00142d;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }

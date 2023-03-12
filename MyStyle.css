@@ -33,7 +33,9 @@ nav a {
 
 .se_01,
 .se_02,
-.se_03 {
+.se_03, 
+.se_04,
+.se_05 {
     width: 100%;
 }
 
@@ -42,6 +44,7 @@ nav .Title_Link,
 .se_01 text,
 .se_02 article,
 .se_03 article,
+.se_04 article,
 section {
     width: 80%;
 }
@@ -181,7 +184,8 @@ nav .Title_Link button {
     justify-content: center;
 }
 
-.se_02 {
+.se_02,
+.se_04 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -258,9 +262,9 @@ nav .Title_Link button {
 }
 
 .se_03 h1 {
+    margin: 64px 0;
     width: 100%;
     font-size: 28px;
-    margin: 64px 0;
 }
 
 .se_03 p {
@@ -280,6 +284,79 @@ nav .Title_Link button {
     margin: 15px 35%;
 }
 
+.se_04 {
+    background-color: #fff;
+}
+
+.se_04, .se_04 article, .se_05 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.se_04 h1 {
+    font-size: 28px;
+    width: 100%;
+    margin: 64px 0;
+}
+.se_04 .pic {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.se_04 .pic a {
+    width: 18%;
+    margin: 0 1%;
+}
+
+.se_04 .pic img {
+    width: 100%;
+}
+
+.se_04 .item{
+    margin-top: 58px;
+    margin-bottom: 64px;
+}
+
+.se_04 .item p, .se_04 .item .author h2 {
+    font-size: 16px;
+}
+
+.se_04 .item .author p {
+    margin-top: 20px;
+    font-size: 12px;
+}
+.se_04 h1 , 
+.se_04 .item p, 
+.se_04 .item .author h2, 
+.se_04 .item .author p,
+.se_05 h1{
+    text-align: center;
+    color: #052855;
+}
+
+.se_05 {
+    margin: 64px 0;
+}
+
+.se_05 h1 {
+    width: 100%;
+    font-size: 40px;
+}
+
+.se_05 button {
+    margin-top: 48px;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0061ff;
+}
+
 footer {
+    width: 100%;
     height: 1000px;
+    background-color: #00142d;
 }
